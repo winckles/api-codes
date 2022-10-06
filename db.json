@@ -1,5 +1,6 @@
 {
   "httpStatusCodes": {
+    "url": "https://docs.adyen.com/development-resources/response-handling",
     "info": [
       { "status": 200,"title": "Success","description": "The request succeeded"},
       { "status": 400,"title": "Bad request","description": "The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing or deceptive request routing"},
@@ -9,10 +10,10 @@
       { "status": 413,"title": "Payload too large","description": "The body of your request was too large. The maximum request size is 10MB"},
       { "status": 422,"title": "Unprocessable entity","description": "The request is formally valid, but semantically incorrect: the receiving server can read it, but it cannot understand it"},
       { "status": 500,"title": "Internal server error","description": "The receiving server encountered an unexpected condition that prevents it from fulfilling the request. Our servers may return a 500 status code also when the request is incorrect, for example because of a missing or not filled in mandatory field"},
-  ],
-  "url": "https://docs.adyen.com/development-resources/response-handling",
+    ],
   },
   "errorCodes": {
+    "url": "https://docs.adyen.com/development-resources/error-codes",
     "info": [
       { "status": "010","title": "Not allowed","description": "The web service user is missing the permissions roles"},
       { "status": "100","title": "Required object 'amount' is not provided","description": "Missing parameter in the request"},
@@ -26,7 +27,6 @@
       { "status": "905","title": "Payment details are not supported","description": "Missing paymentMethod in Customer Area"},
       { "status": "15_011","title": "pspReference is not a valid pspReference","description": "This is a 3DS2 specific error code"},
       { "status": "15_015","title": "Invalid browserInfo provided","description": "This is a 3DS2 specific error code"}
-     ],
-    "url": "https://docs.adyen.com/development-resources/error-codes"
+     ]
   }
 }
