@@ -1,5 +1,5 @@
 {
-  "httpStatusCodes": {
+  "httpStatusCodes": {--
     "url": "https://docs.adyen.com/development-resources/response-handling",
     "info": [
       { "status": 200,"title": "Success","description": "The request succeeded"},
